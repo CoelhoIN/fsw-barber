@@ -201,7 +201,6 @@ const ServiceItem = ({ service, barbershop }: ServiceItemProps) => {
                       selected={selectedDay}
                       onSelect={handleDateSelect}
                       disabled={{ before: new Date() }}
-                      classNames={{}}
                     />
                   </div>
 
